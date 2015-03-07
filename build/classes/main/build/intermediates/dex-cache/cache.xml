@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Casey\AndroidStudioProjects\HelloWorld\libs\Microsoft JDBC Driver 4.0 for SQL Server\sqljdbc_4.0\enu\sqljdbc4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ecc4bc5c567954cdd1acd3c5985555c8d0355bb0">
+        <dex dex="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\pre-dexed\debug\sqljdbc4-0d28d3e0b352c47135444d19afce98e336555853.jar" />
+    </item>
+    <item
+        jar="C:\Users\Casey\AndroidStudioProjects\HelloWorld\libs\mysql-connector-java-5.1.34-bin.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6df5bcec3970d71eaace2c5589077452c5e9ecfa">
+        <dex dex="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\pre-dexed\debug\mysql-connector-java-5.1.34-bin-f25e69359d98480c893fb07a5bdd2b3c9fadcc9c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Casey\.gradle\caches\modules-2\files-2.1\org.projectlombok\lombok\1.12.4\87cff683a77d5cfc7b1af009f0b7df720248755a\lombok-1.12.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="87cff683a77d5cfc7b1af009f0b7df720248755a">
+        <dex dex="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\pre-dexed\debug\lombok-1.12.4-cf38ac708cc9c4c3fdbd7b1ad474928313bea413.jar" />
+    </item>
+    <item
+        jar="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-f48c5222055d50f5ea3235dad95b59353650192e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\exploded-aar\HelloWorld\AndTinder\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b4b356fe5ef78771c05271c6b2bd35b70b14313e">
+        <dex dex="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\pre-dexed\debug\classes-2be4bbea43c4f8e9bc4a425b0e3a19d50fc1b806.jar" />
+    </item>
+    <item
+        jar="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\pre-dexed\debug\classes-424f463df29e880de3bbb8bd7e3bc2fe5cfcb9b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Casey\HOME\Programs\androidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-3cac98d144384f09b134418b645f241d06db39cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\Casey\AndroidStudioProjects\HelloWorld\app\build\intermediates\pre-dexed\debug\classes-7f9a3675e5001e0149303e49623106fd50570522.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,301 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.app.gamePlayingActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <!--Card Layout -->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="385dp"-->
+        <!--android:layout_marginLeft="-2dp"-->
+        <!--android:background="@drawable/border"-->
+        <!--android:orientation="vertical">-->
+
+        <com.andtinder.view.CardContainer
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:gravity="center"
+            app:orientation="ordered"
+            android:id="@+id/layoutview"
+            android:layout_width="fill_parent"
+            android:layout_height="385dp"
+
+            />
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="385dp"-->
+
+        <!--Header Layout -->
+        <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="195dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingLeft="7dp"-->
+        <!--android:paddingTop="3dp">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/firstNameTextView"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Matthew"-->
+        <!--android:textSize="22dp" />-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="-7dp">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/lastNameTextView"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:includeFontPadding="false"-->
+        <!--android:text="Stafford"-->
+        <!--android:textSize="22dp" />-->
+        <!--</RelativeLayout>-->
+        <!--</LinearLayout>-->
+
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:paddingLeft="7dp"-->
+        <!--android:paddingTop="7dp">-->
+
+
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#006DB0"-->
+            <!--android:paddingLeft="10dp"-->
+
+            <!-->-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/teamText"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Team:"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textSize="13dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/teamNameTextView"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingLeft="3dp"-->
+                <!--android:text="DET"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textSize="13dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/posText"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingLeft="3dp"-->
+                <!--android:text="Pos:"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textSize="13dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/positionTextView"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingLeft="3dp"-->
+                <!--android:text="QB"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textSize="13dp" />-->
+
+
+        <!--</LinearLayout>-->
+        <!--&lt;!&ndash;Front of Card Layout &ndash;&gt;-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="-10dp">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="fill_parent"-->
+                    <!--android:layout_height="330dp"-->
+                    <!--android:src="@drawable/staffordfingersup"-->
+                    <!--android:onClick="cardClicked"/>-->
+            <!--</RelativeLayout>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Matthew Stafford throws for more than 275 yards passing at home Sunday against the Packers"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <Button
+                    android:id="@+id/buttonNo"
+                    android:layout_width="175dp"
+                    android:layout_height="10dp"
+                    android:background="#990000"
+                    android:onClick="noClicked"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <Button
+                    android:id="@+id/buttonYes"
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:background="#336600"
+                    android:onClick="yesClicked"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="850px"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="20dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp">
+                    <ImageView
+                        android:id="@+id/dot9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/graydot" />
+
+                    <ImageView
+                        android:id="@+id/dot8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/graydot" />
+
+                    <ImageView
+                        android:id="@+id/dot7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/graydot" />
+
+                    <ImageView
+                        android:id="@+id/dot6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/graydot" />
+
+                    <ImageView
+                        android:id="@+id/dot5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/graydot" />
+
+                    <ImageView
+                        android:id="@+id/dot4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/graydot" />
+
+                    <ImageView
+                        android:id="@+id/dot3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/graydot" />
+
+                    <ImageView
+                        android:id="@+id/dot2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/graydot" />
+
+                    <ImageView
+                        android:id="@+id/dot1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/graydot" />
+
+                    <ImageView
+                        android:id="@+id/dot0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/graydot" />
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp"
+                    android:src="@drawable/skipbutton"
+                    android:clickable="true"
+                    android:onClick="skipButtonClicked"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
